@@ -1,0 +1,182 @@
+/* this is the main colors used on the website  */
+
+:root {
+
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+
+/* welcome note */
+ #welcome{
+    display: flex;
+    position: relative;
+    padding: 20px;
+    align-items: center;
+    color: linear-gradient(to top, darkblue, lightblue);
+    flex-direction: column;
+    
+} 
+
+.main-nav {
+    text-decoration: none;
+ 
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 5;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.main-nav a:hover {
+    color: lightblue;
+    background: linear-gradient(to bottom, black, darkblue, lightblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background 0.3s ease, color 0.3s ease;
+    
+}
+
+/* for the picture on the website  */
+p { 
+    margin: 0; /* Reset default body margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+    opacity: 0.5;
+    
+}
+
+.image-info h2 {
+    margin: 0; /* Reset default body margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    opacity: 0.5;
+    font-size: 3rem;
+
+}
+
+body {
+    margin: 0; /* Reset default margin */
+    font-family: 'Black Ops One', cursive;
+    font-size: 16px; /* Define base font size */
+    line-height: 1.5;
+    background: linear-gradient(to top, #111418, #323D48, #2c363f, #3B4854, #44525F, #C3CCD5);
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project-card {
+    
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px); /* Adjust width as needed for responsiveness */
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.project-card p {
+    margin: 10px 0;
+}
+
+.project-card a {
+    display: inline-block;
+    color: linear-gradient(to bottom, black, darkblue, lightblue);
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-buttons {
+    background-color: #333;
+    color: linear-gradient(to bottom, black, darkblue, lightblue);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+a:hover {
+    color: lightblue;
+    background: linear-gradient(to bottom, black, darkblue, lightblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background 0.3s ease, color 0.3s ease;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* phone */
+@media screen (max-width: 480px){
+    body {
+        font-size: 14px;
+    }
+    
+}
+
+/* Tablet */
+@media screen (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    
+}
+
+/* Larger screens */
+@media screen (min-width: 769px) {
+    body {
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+    
+}
