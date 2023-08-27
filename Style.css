@@ -64,12 +64,20 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     opacity: 0.5;
     font-size: 3rem;
 
 }
 
+#s-e {
+    margin: 0; /* Reset default body margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    font-size: 3rem;
+
+}
 body {
     margin: 0; /* Reset default margin */
     font-family: 'Black Ops One', cursive;
